@@ -34,6 +34,7 @@ BDEPEND="virtual/pkgconfig
 	doc? ( app-text/asciidoc )
 	test? ( $(python_gen_any_dep 'dev-python/xcffib[${PYTHON_USEDEP}]') )
 "
+KEYWORDS="~amd64"
 DOCS=(README.md picom.sample.conf)
 
 python_check_deps() {
